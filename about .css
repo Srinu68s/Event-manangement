@@ -1,0 +1,53 @@
+/* Continue from previous CSS, add the following for the About page */
+
+.about-hero {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-content {
+    padding: 2rem;
+}
+
+.about-content h2 {
+    color: #333;
+    margin-top: 1rem;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin-top: 0.5rem;
+    color: #007bff;
+}
+
+.team-member p {
+    color: #333;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+    .team-members {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,72 @@
+/* Reset some basic elements */
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation bar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+}
+
+.navbar ul.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul.nav-links li {
+    padding: 0 1rem;
+}
+
+.navbar ul.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styling */
+.hero {
+    background-color: #eee;
+    color: #333;
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero .hero-content h1 {
+    margin-bottom: 0.5rem;
+}
+
+.hero .hero-content p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
